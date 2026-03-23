@@ -142,6 +142,10 @@ img {
     width: 100%;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 /* ==========================================
    Hero Section
    ========================================== */
@@ -819,51 +823,134 @@ img {
     .hero-title {
         font-size: 32px;
     }
-    
+
     .hero-subtitle {
         font-size: 16px;
     }
-    
+
     .hero-search {
         flex-direction: column;
     }
-    
+
     .hero-stats {
         flex-direction: column;
         gap: 20px;
     }
-    
+
     .section-title {
         font-size: 28px;
     }
-    
+
     .ranking-card {
         flex-direction: column;
     }
-    
+
     .rank-badge {
         flex-direction: row;
         gap: 12px;
     }
-    
+
     .card-name {
         font-size: 22px;
     }
-    
+
     .card-features {
         grid-template-columns: 1fr;
     }
-    
+
     .card-actions {
         flex-direction: column;
     }
-    
-    .nav ul {
-        gap: 16px;
+
+    /* ハンバーガーメニュー */
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid var(--border-color);
+        box-shadow: var(--shadow-md);
+        z-index: 99;
     }
-    
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 0;
+        padding: 8px 0;
+    }
+
     .nav a {
-        font-size: 14px;
+        font-size: 15px;
+        display: block;
+        padding: 14px 24px;
+    }
+
+    .nav a:hover {
+        background: var(--bg-secondary);
+    }
+
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        background: none;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .header-content {
+        position: relative;
+    }
+
+    /* 記事テーブルのモバイル対応 */
+    .article-content table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+
+    .article-content th,
+    .article-content td {
+        padding: 8px 10px;
+        min-width: 80px;
+    }
+
+    /* 記事タイトルのモバイル対応 */
+    .article-title {
+        font-size: 24px;
+    }
+
+    .article-content h2 {
+        font-size: 20px;
+    }
+
+    .article-content h3 {
+        font-size: 17px;
+    }
+
+    /* パンくずリスト */
+    .breadcrumb {
+        font-size: 11px !important;
+        padding: 6px 16px !important;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* 著者ボックス */
+    .author-box {
+        padding: 16px !important;
     }
 }
 
@@ -871,15 +958,27 @@ img {
     .hero {
         padding: 40px 0;
     }
-    
+
     .section-title {
         font-size: 24px;
     }
-    
+
     .ranking,
     .comparison,
     .guide,
     .faq {
         padding: 40px 0;
+    }
+
+    .content { padding: 12px 16px; }
+    .container { padding: 0 16px; }
+
+    .article-title {
+        font-size: 20px;
+    }
+
+    .logo-text,
+    .logo h1 {
+        font-size: 22px;
     }
 }
