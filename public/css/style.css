@@ -671,6 +671,146 @@ img {
 }
 
 /* ==========================================
+   Article Pages
+   ========================================== */
+.article {
+    padding: 40px 0 80px;
+}
+
+.article-header {
+    margin-bottom: 24px;
+}
+
+.article-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+.article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.article-image {
+    margin: 24px 0 32px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+}
+
+.article-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article-image .image-caption {
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    text-align: center;
+}
+
+.article-content {
+    max-width: 800px;
+}
+
+.article-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--text-color);
+}
+
+.article-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 32px 0 12px;
+    color: var(--text-color);
+}
+
+.article-content p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.article-content ul,
+.article-content ol {
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+.article-content li {
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
+
+.article-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.article-content th,
+.article-content td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.article-content th {
+    background: var(--bg-secondary);
+    font-weight: 600;
+}
+
+.cta-box {
+    background: var(--bg-secondary);
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.info-box,
+.warning-box-large,
+.example-box {
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin: 24px 0;
+}
+
+.info-box {
+    background: #E8F4FD;
+    border-left: 4px solid var(--primary-color);
+}
+
+.warning-box-large {
+    background: #FFF3CD;
+    border-left: 4px solid #FFC107;
+}
+
+.example-box {
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-color);
+}
+
+.related-articles {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border-color);
+}
+
+/* ==========================================
    Responsive Design
    ========================================== */
 @media (max-width: 768px) {
