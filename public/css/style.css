@@ -97,13 +97,15 @@ img {
     padding: 16px 0;
 }
 
-.logo h1 {
+.logo h1,
+.logo .logo-text {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 4px;
 }
 
-.logo h1 a {
+.logo h1 a,
+.logo .logo-text a {
     color: var(--primary-color);
 }
 
