@@ -221,4 +221,4 @@ window.addEventListener('beforeprint', () => {
     });
 });
 
-console.log('🚀 crypto-card.jp loaded successfully!');
+console.log('🚀 crypto-card.club loaded successfully!');

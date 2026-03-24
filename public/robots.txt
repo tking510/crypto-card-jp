@@ -16,4 +16,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://crypto-card.jp/sitemap.xml
+Sitemap: https://crypto-card.club/sitemap.xml
