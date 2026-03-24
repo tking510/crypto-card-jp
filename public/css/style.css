@@ -705,15 +705,39 @@ img {
 
 .article-image {
     margin: 24px 0 32px;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: var(--shadow-md);
+    position: relative;
 }
 
 .article-image img {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.85;
+}
+
+.article-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(to top, var(--bg-color) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.article-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    background: linear-gradient(to bottom, var(--bg-color) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
 }
 
 .article-image .image-caption {
