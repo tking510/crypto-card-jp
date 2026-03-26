@@ -1,19 +1,33 @@
+# robots.txt for crypto-card.jp
+# LLMO/AI Crawler Optimization
+
 User-agent: *
 Allow: /
 
+# LLM Crawlers - Explicitly Allow
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Claude-Web
+User-agent: PerplexityBot
 Allow: /
 
-User-agent: Anthropic-AI
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://crypto-card.club/sitemap.xml
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Disallow verification files
+Disallow: /google*.html
+
+# Sitemap
+Sitemap: https://crypto-card.jp/sitemap.xml
