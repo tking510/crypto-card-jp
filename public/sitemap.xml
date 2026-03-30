@@ -213,6 +213,52 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- News Articles -->
+  <url>
+    <loc>https://crypto-card.club/news-2026-03-crypto-card-trends.html</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-30</news:publication_date>
+      <news:title>2026年3月の仮想通貨カード最新トレンド</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://crypto-card.club/news-redotpay-update-2026.html</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-30</news:publication_date>
+      <news:title>RedotPay 2026年アップデート情報まとめ</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://crypto-card.club/news-japan-crypto-regulation-2026.html</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-30</news:publication_date>
+      <news:title>日本の暗号資産規制 2026年最新動向</news:title>
+    </news:news>
+  </url>
+
   <!-- Info Pages -->
   <url>
     <loc>https://crypto-card.club/news.html</loc>
