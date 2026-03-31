@@ -259,6 +259,36 @@
     </news:news>
   </url>
 
+  <url>
+    <loc>https://crypto-card.club/news-stablecoin-card-comparison-2026.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-27</news:publication_date>
+      <news:title>ステーブルコインカード比較2026</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://crypto-card.club/news-crypto-card-fee-update-april-2026.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-27</news:publication_date>
+      <news:title>仮想通貨カード手数料改定情報2026年4月</news:title>
+    </news:news>
+  </url>
+
   <!-- Info Pages -->
   <url>
     <loc>https://crypto-card.club/news.html</loc>
