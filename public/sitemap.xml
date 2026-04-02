@@ -289,6 +289,36 @@
     </news:news>
   </url>
 
+  <url>
+    <loc>https://crypto-card.club/news-crypto-card-apple-pay-2026.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-02</news:publication_date>
+      <news:title>Apple Pay対応仮想通貨カード最新動向2026年4月</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://crypto-card.club/news-best-crypto-card-cashback-april-2026.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>crypto-card.club</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-04-02</news:publication_date>
+      <news:title>2026年4月版キャッシュバック最強の仮想通貨カード</news:title>
+    </news:news>
+  </url>
+
   <!-- Info Pages -->
   <url>
     <loc>https://crypto-card.club/news.html</loc>
